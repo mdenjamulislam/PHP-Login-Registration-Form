@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/*------ google font -----*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Meow+Script&family=Nunito:ital,wght@1,200&family=Roboto:ital,wght@1,100&display=swap');
+
+/*----- site Typography -----*/
+
+body {
+    font-family: 'Fuzzy Bubbles', cursive;
+    /*font-family: 'Meow Script', cursive;*/
+    font-size: 14px;
+    line-height: 1.48;
+    color: #222;
+    background: url(images/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+input, input:focus, input:active {
+    outline: o;
+}
+a, a:hover {
+    text-decoration: none;
+}
+img {
+    height: auto;
+    vertical-align: middle;
+}
+
+
+/*----- Site style ------*/
+
+.wrap {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.page-title {
+    text-align: center;
+}
+.page-title > h2 {
+    color: #fff;
+    padding: 10px 0;
+    background-color: #007ACC;
+    font-size: 24px;
+    border-radius: 20px 20px 0 0;
+}
+.form-wrap {
+    text-align: center;
+    padding: 20px;
+}
+.form-wrap img {
+    width: 180px;
+    height: auto;
+
+}
+.form-wrap form {
+    width: 320px;
+    margin: 0 auto;
+}
+.form-wrap form > label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 6px;
+    display: block;
+}
+.form-wrap form > input {
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+}
+.form-wrap form > input[type="submit"] {
+    width: 100px;
+    color: #EFE9E9;
+    background: #007ACC;
+    display: block;
+    clear: both;
+
+    transition: all .2s ease-in-out;
+}
+.form-wrap form > input[type="submit"]:hover {
+    color: #fff;
+}
+.form-wrap form > p {
+    text-align: left;
+}
+
+
+/*------ home page stile -----*/
+
+.home-wap {
+    width: 960px;
+}
+.header_00 {
+    width: 100%;
+    text-align: center;
+    display: table;
+    border-radius: 20px 20px 0 0 ;
+    
+    background: url(images/about-me.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.cover_pic {
+    width: 100%;
+    height: 300px;
+    display: table-cell;
+    background: rgb(0, 0, 0, 0.5);
+    color: #fff;
+    position: relative;
+}
+.cover_pic h2.profile-title {
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+.cover_pic p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+figure.profile_pic {
+    text-align: left;
+}
+figure.profile_pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -70px;
+}
+
